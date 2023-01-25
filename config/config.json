@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "lmitrovic",
+    "password": "8uJ1zKXtpfmduUNTHaoKJQrD6TFbFdS7",
+    "database": "lmitrovicvuedb",
+    "host": "dpg-cf8lp9ta499fsd3g8ph0-a.frankfurt-postgres.render.com",
+    "url": "postgres://lmitrovic:8uJ1zKXtpfmduUNTHaoKJQrD6TFbFdS7@dpg-cf8lp9ta499fsd3g8ph0-a.frankfurt-postgres.render.com/lmitrovicvuedb",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "lmitrovic",
+    "password": "8uJ1zKXtpfmduUNTHaoKJQrD6TFbFdS7",
+    "database": "database_production",
+    "host": "dpg-cf8lp9ta499fsd3g8ph0-a.frankfurt-postgres.render.com",
+    "url": "postgres://lmitrovic:8uJ1zKXtpfmduUNTHaoKJQrD6TFbFdS7@dpg-cf8lp9ta499fsd3g8ph0-a/lmitrovicvuedb",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
